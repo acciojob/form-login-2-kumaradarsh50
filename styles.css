@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  padding-bottom: 2px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(233, 233, 233);
+  border: unset;
+}
